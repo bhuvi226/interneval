@@ -1,0 +1,19 @@
+n = int (input())
+intervals =[]
+for _ in range(n):
+    a,b = map(int,input().split())
+    intervals.append((a,b))
+    intevals.sort()
+    merged = []
+    for s,e in intervals:
+        if not merged or s > merged [-1][1]:
+            merged.appends([s,e])
+        else:
+                merged [-1][1] = max(merged[-1][1],e)
+                
+                Total = 0
+                for s,e in merged:
+                    total += (e-s+1)
+                    print(total)
+                    for s,e in merged:
+                        print(s,e)
