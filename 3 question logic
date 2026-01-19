@@ -1,0 +1,5 @@
+first finding the length of the string give in input.
+after gettting the lenght of string getting the rank of the letter.
+if leng(str) == rank print length of string.
+else find other letters rank pf substring.
+if repeated substrings take the lenght of substring.
